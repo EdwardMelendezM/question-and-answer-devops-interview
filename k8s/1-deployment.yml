@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: fast-api-dev
-          image: dev001001/fast-api-dev:v1.0.0 # Usa tu imagen de Docker
+          image: dev001001/fast-api-dev:v1.0.1 # Usa tu imagen de Docker
           ports:
             - containerPort: 8000
           env:
